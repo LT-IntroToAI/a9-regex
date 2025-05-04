@@ -1,7 +1,7 @@
 ---
-title: 'Assignment 8: Wikipedia Scraping'
+title: 'Assignment 9: Wikipedia Scraping'
 author: Assignment written by Nathan Shelly
-date: 'Due Wednesday, May 15'
+date: 'Due Wednesday, May 7'
 geometry: margin=1in
 urlcolor: cyan
 ---

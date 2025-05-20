@@ -47,13 +47,13 @@ def get_birth_date(name: str) -> str:
 
 if __name__ == "__main__":
     print("\n<<<<<<<<<<<<<< Testing Planet Radius >>>>>>>>>>>>>>")
-    # should be 3,376.2
+    # should be 3376.2
     print(f'Mars has a polar radius of {get_planet_radius("Mars")}km')
     # should be 6356.752
     print(f'Earth has a polar radius of {get_planet_radius("Earth")}km')
-    # should be 66,854
+    # should be 66854
     print(f'Jupiter has a polar radius of {get_planet_radius("Jupiter")}km')
-    # should be 54,364
+    # should be 54364
     print(f'Saturn has a polar radius of {get_planet_radius("Saturn")}km')
 
     # uncomment below lines for tests once you think you're getting the right output

@@ -6,7 +6,11 @@ geometry: margin=1in
 urlcolor: cyan
 ---
 
-You may work alone or in a pair. If you work in a pair, please make sure you document who you are working with in the comments of the program, and in Google Classroom.
+This will be an individual assignment that you will be turning into github classroom.  Please make sure that all parts are completed by the due date. 
+
+For this assignment we will be using Itopia each day so that I can get a sense of what works and what doesn't work.  Please be patient with me throughout and if we need more time, then I will be flexible with due dates.  I created two separate classes for each period so when logging onto the Itopia image, make sure you are choosing the correct one.  I am not deleting the other image yet, but probably will in the future.
+
+
 
 The purpose of this assignment is to explore the concept of "regular expressions" (regex) as well as download/install and use some existing python packages.
 
@@ -18,7 +22,7 @@ In this part, you will install and tinker with the "Wikipedia API for Python".
 
 ## Download and Install Instructions
 
-Open up the command line and install wikipedia using pip (`pip install wikipedia`). If successful you should see something like this (run on macOS):
+Open up the terminal and install wikipedia using pip (`pip install wikipedia`). If successful you should see something like this (run on macOS):
 
 ![Pip install Wikipedia](./images/pip_install_wikipedia.png "Pip install Wikipedia") \
 
@@ -26,7 +30,7 @@ Open up the command line and install wikipedia using pip (`pip install wikipedia
 
 Follow along with the instructions below in the python interpreter (`>>>`).
 
-We will go over this in class, but to use the python interpreter, you will type in `python3` in the terminal and press enter.  You should then see `>>>`, which indicates you are in the interpreter, where you can run any line of a program.
+We will go over this in class, but to use the python interpreter, you will type in `python` in the terminal and press enter.  You should then see `>>>`, which indicates you are in the interpreter, where you can run any line of a program.
 
 1. At the python interpreter (`>>>`) type `import wikipedia` and hit enter. If no error messages appear then you have successfully installed and imported the Wikipedia API for Python. Congrats!
 2. The documentation for the Wikipedia API for Python can be found [here](https://wikipedia.readthedocs.io/en/latest/code.html). This site lists all of the functions that you can execute and some important related classes. Being able to read documentation is an incredibly valuable skill both in the real world and in future classes. It can also be really hard to understand and takes experience to know how to read it well, ask a peer or Mr. Berg for advice on how to read it if you're having difficulty!
@@ -67,7 +71,7 @@ Notice that in `utilities.py` we have provided you with several functions to hel
 
 In this part of the assignment, you'll be writing code to extract data from these boxes. In particular, you'll write two different regular expressions, one to get the date of birth from the infobox of anyone with a Wikipedia page and one to get the radius of a planet.
 
-Notice the 2 incomplete patterns (marked by `"REPLACE ME"`) on lines `22` and `38` of `a8_part_II.py`. Your job is to fill in each pattern with a regular expression that extracts the proper information (the rest of the function has been implemented for you).
+Notice the 2 incomplete patterns (marked by `"REPLACE ME"`) on lines `22` and `39` of `a8_part_II.py`. Your job is to fill in each pattern with a regular expression that extracts the proper information (the rest of the function has been implemented for you).
 
 **VERY IMPORTANT:** The text you see on the Wikipedia page has already been rendered meaning the raw text the api receives will look different from what you see on the page. To properly extract information you'll need to look at the raw text the API returns, **NOT** what the page looks like.
 
